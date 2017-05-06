@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prod"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_ofer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ofertas" />
+        <item
+            android:id="@+id/nav_ubic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ubicación de centros de reciclaje" />
+        <item
+            android:id="@+id/nav_regi"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Registro" />
+        <item
+            android:id="@+id/nav_busq"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Busqueda de..." />
+        <item
+            android:id="@+id/nav_perf"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Perfil" />
+    </group>
+
+        <item android:title="Otros">
+        <menu>
+            <item
+                android:id="@+id/nav_hueEcol"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Huella ecologica" />
+            <item
+                android:id="@+id/nav_Bien"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Bienvenida" />
+        </menu>
+    </item>
+
+</menu>

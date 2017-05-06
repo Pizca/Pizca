@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bienvenida"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hackunam.pizca.Bienvenida">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_person_black_24dp" />
+
+        <TextView
+            android:id="@+id/txt_no_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:text="¿Aún no te has registrado?"/>
+
+        <Button
+            android:id="@+id/bienve_btn_registrar"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/corner_btn_registro"
+            android:text="Registrarse"
+            android:textColor="#99FF99"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bienve_btn_iniciar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/corner_btn_inicio"
+            android:layout_gravity="bottom"
+            android:text="Iniciar sesión"
+            android:textSize="20sp" />
+    </FrameLayout>
+</LinearLayout>

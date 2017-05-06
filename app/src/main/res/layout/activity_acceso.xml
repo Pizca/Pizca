@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackunam.pizca.Acceso">
+
+<LinearLayout
+    android:id="@+id/activity_acceso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"  >
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_pizca"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/sign_et_user"
+        android:hint="  Usuario"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:textColorHint="#003333"
+        android:background="@drawable/corner_btn_inicio"
+        android:textColor="#000000" /><!--shape en background-->
+
+    <EditText
+        android:id="@+id/sign_et_pass"
+        android:hint=" Contraseña"
+        android:layout_below="@+id/sign_et_user"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#003333"
+        android:layout_gravity="center"
+        android:background="@drawable/corner_btn_inicio"
+        android:textColor="#000000"
+        android:password="true"/>
+
+    <Button
+        android:id="@+id/sign_btn_acceder"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Acceder"
+        android:layout_below="@+id/sign_et_pass"
+        android:layout_centerHorizontal="true"
+        android:textColor="#99FF99"
+        android:background="@drawable/corner_btn_registro"
+        android:layout_marginTop="56dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
+</ScrollView>
